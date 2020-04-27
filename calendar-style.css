@@ -1,0 +1,111 @@
+/* sets the font for the calendar */
+body * {
+    font-family: 'Sen', sans-serif;
+}
+
+/* designated size of days */
+.day {
+    height: 175px;
+    width: 150px;
+}
+
+button {
+    cursor: pointer; 
+}
+
+/* all the color stylying for the category color coding */
+.school {
+    border-radius: 5px;
+    background-color: rgba(253, 43, 87, 0.6);
+}
+
+.work {
+    border-radius: 5px;
+    background-color: rgba(255, 217, 63, 0.6);
+}
+
+.family {
+    border-radius: 5px;
+    background-color: rgba(25, 167, 0, 0.6);
+}
+
+.friends {
+    border-radius: 5px;
+    background-color: rgba(47, 182, 213, 0.6);
+}
+
+.other {
+    border-radius: 5px;
+    background-color: rgba(234, 236, 238, 0.6);
+}
+
+/* adds the shadow behind the next and previous month buttons */
+#prev_month_btn, #next_month_btn{
+    box-shadow: 5px 5px 5px #C8EFFF;
+}
+
+/* bolds the day number in the calendar boxes */
+.day-num p {
+    font-weight: bold;
+}
+
+/* makes a circular button */
+.button-circle{
+    border-radius: 50%;
+}
+
+/* aligns the day names */
+.days p{
+    text-align: center;
+}
+
+/* makes the days square */
+.card { 
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+/* greys out the wrong months days at the begining and end of the month */
+.WRONG-MONTH {
+    opacity: 0.5;
+}
+
+/* bolds todays day box */
+.TODAY .card{
+    border-width: 2px;
+    border-color: #000000;
+}
+
+/* red error messages */
+#error-message {
+    color:red;
+}
+
+/* edit and delete button styling */
+.can_edit, .can.delete {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* bolds the users name */
+#current-user {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* turns off the display when added to the class list */
+.dont-show {
+    display: none;
+}
+
+#display-all-users {
+    max-height: 200px;
+    overflow: scroll;
+
+}
+
+.form-check-label .groupform {
+    width: 200px;
+    height: 18px;
+}
+
